@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		7B3420071F5D445100B11786 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3420061F5D445100B11786 /* AppDelegate.swift */; };
-		7B3420091F5D445100B11786 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3420081F5D445100B11786 /* ViewController.swift */; };
-		7B34200C1F5D445100B11786 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B34200A1F5D445100B11786 /* Main.storyboard */; };
+		7B3420091F5D445100B11786 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3420081F5D445100B11786 /* ChatViewController.swift */; };
+		7B34200C1F5D445100B11786 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B34200A1F5D445100B11786 /* Chat.storyboard */; };
 		7B34200E1F5D445100B11786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B34200D1F5D445100B11786 /* Assets.xcassets */; };
 		7B3420111F5D445100B11786 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B34200F1F5D445100B11786 /* LaunchScreen.storyboard */; };
+		7B34201D1F5D4D3E00B11786 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3420191F5D4D3E00B11786 /* RxCocoa.framework */; };
+		7B34201E1F5D4D3E00B11786 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B34201A1F5D4D3E00B11786 /* RxSwift.framework */; };
+		7B3420221F5D5EEC00B11786 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3420211F5D5EEC00B11786 /* ChatViewModel.swift */; };
+		7B3420241F5D61FC00B11786 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3420231F5D61FC00B11786 /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7B3420031F5D445100B11786 /* NogiTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NogiTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B3420061F5D445100B11786 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7B3420081F5D445100B11786 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7B34200B1F5D445100B11786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B3420081F5D445100B11786 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		7B34200B1F5D445100B11786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Chat.storyboard; sourceTree = "<group>"; };
 		7B34200D1F5D445100B11786 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B3420101F5D445100B11786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B3420121F5D445100B11786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B3420181F5D4D3E00B11786 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		7B3420191F5D4D3E00B11786 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		7B34201A1F5D4D3E00B11786 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		7B34201B1F5D4D3E00B11786 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		7B3420211F5D5EEC00B11786 /* ChatViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		7B3420231F5D61FC00B11786 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B34201D1F5D4D3E00B11786 /* RxCocoa.framework in Frameworks */,
+				7B34201E1F5D4D3E00B11786 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +52,7 @@
 			children = (
 				7B3420051F5D445100B11786 /* NogiTalk */,
 				7B3420041F5D445100B11786 /* Products */,
+				F1D8B7D0E936404030F32C69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +68,26 @@
 			isa = PBXGroup;
 			children = (
 				7B3420061F5D445100B11786 /* AppDelegate.swift */,
-				7B3420081F5D445100B11786 /* ViewController.swift */,
-				7B34200A1F5D445100B11786 /* Main.storyboard */,
+				7B3420081F5D445100B11786 /* ChatViewController.swift */,
+				7B34200A1F5D445100B11786 /* Chat.storyboard */,
 				7B34200D1F5D445100B11786 /* Assets.xcassets */,
 				7B34200F1F5D445100B11786 /* LaunchScreen.storyboard */,
 				7B3420121F5D445100B11786 /* Info.plist */,
+				7B3420211F5D5EEC00B11786 /* ChatViewModel.swift */,
+				7B3420231F5D61FC00B11786 /* Message.swift */,
 			);
 			path = NogiTalk;
+			sourceTree = "<group>";
+		};
+		F1D8B7D0E936404030F32C69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B3420181F5D4D3E00B11786 /* RxBlocking.framework */,
+				7B3420191F5D4D3E00B11786 /* RxCocoa.framework */,
+				7B34201A1F5D4D3E00B11786 /* RxSwift.framework */,
+				7B34201B1F5D4D3E00B11786 /* RxTest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +100,7 @@
 				7B341FFF1F5D445100B11786 /* Sources */,
 				7B3420001F5D445100B11786 /* Frameworks */,
 				7B3420011F5D445100B11786 /* Resources */,
+				7B3420201F5D4D4600B11786 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -126,18 +153,40 @@
 			files = (
 				7B3420111F5D445100B11786 /* LaunchScreen.storyboard in Resources */,
 				7B34200E1F5D445100B11786 /* Assets.xcassets in Resources */,
-				7B34200C1F5D445100B11786 /* Main.storyboard in Resources */,
+				7B34200C1F5D445100B11786 /* Chat.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B3420201F5D4D4600B11786 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxTest.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7B341FFF1F5D445100B11786 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B3420091F5D445100B11786 /* ViewController.swift in Sources */,
+				7B3420091F5D445100B11786 /* ChatViewController.swift in Sources */,
+				7B3420241F5D61FC00B11786 /* Message.swift in Sources */,
+				7B3420221F5D5EEC00B11786 /* ChatViewModel.swift in Sources */,
 				7B3420071F5D445100B11786 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,12 +194,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7B34200A1F5D445100B11786 /* Main.storyboard */ = {
+		7B34200A1F5D445100B11786 /* Chat.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				7B34200B1F5D445100B11786 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Chat.storyboard;
 			sourceTree = "<group>";
 		};
 		7B34200F1F5D445100B11786 /* LaunchScreen.storyboard */ = {
@@ -262,7 +311,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A8U9J63JSV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = NogiTalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.suxisuxido.NogiTalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,7 +329,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A8U9J63JSV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = NogiTalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.suxisuxido.NogiTalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +361,7 @@
 				7B3420171F5D445100B11786 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
